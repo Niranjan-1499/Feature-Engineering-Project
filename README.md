@@ -7,6 +7,10 @@ Feature Scaling
   - Many algorithms (like KNN, SVM, logistic regression, neural networks, gradient descent-based models) are sensitive to the magnitude of features.
   - Without scaling, features with large numerical ranges can dominate distance-based metrics or optimization steps.
 
-
-<img width="741" height="355" alt="image" src="https://github.com/user-attachments/assets/9414e251-a9ab-4ef5-b7dd-98cf0976881c" />
+  <img width="741" height="355" alt="image" src="https://github.com/user-attachments/assets/9414e251-a9ab-4ef5-b7dd-98cf0976881c" />
+  
+- **When to scale**
+- Distance-based algorithms (KNN, K-means, SVM, PCA)
+- Gradient descent-based models (linear regression, logistic regression, neural networks)
+- Not always necessary for tree-based models (Decision Tree, Random Forest, XGBoost), because they split based on thresholds not distances.
 
